@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+</head>
+<body>
+    <button id="btn-inicio">Início</button>
+
+    <!-- Seu conteúdo HTML aqui -->
+
+    <script>
+        document.getElementById('btn-inicio').addEventListener('click', function() {
+            // Redirecionar para a página inicial
+            window.location.href = 'http://127.0.0.1:5500/professor/index.html#'; // Substitua 'index.html' pelo caminho correto da sua página inicial
+        });
+    </script>
+</body>
+</html>

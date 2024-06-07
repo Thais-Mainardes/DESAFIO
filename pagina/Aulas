@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão</title>
+</head>
+<body>
+    <button id="meu-botao">Minhas Aulas</button>
+
+    <script>
+        document.getElementById('meu-botao').addEventListener('click', function() {
+            // Redirecionar para a página Minhas Aulas
+            window.location.href = 'index.html'; // Substitua 'index.html' pelo caminho correto da sua página inicial
+        });
+    </script>
+</body>
+</html>
